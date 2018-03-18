@@ -36,7 +36,7 @@ echo -n "Masternode genkey: "
 read mngenkey
 echo -n "VPS IP (only x.x.x.x no port): "
 read ipaddress
-
+mkdir -p ~/.citruscore/
 echo -e "rpcuser=$user \nrpcpassword=$password \nrpcport=3132 \nrpcallowip=127.0.0.1 \nserver=1 \ndaemon=1 \nstaking=0 \nmasternode=1 \nmasternodeprivkey=$mngenkey \nexternalip=$ipaddress:11112 \n" > ~/.citruscore/citrus.conf
 sleep 3
 echo '*** Step 3/4 ***'
