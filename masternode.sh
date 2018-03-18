@@ -17,6 +17,7 @@ apt-get install \
   libboost-all-dev libminiupnpc-dev \
   libzmq3-dev libqrencode-dev \
   libdb4.8-dev libdb4.8++-dev \
+  libzmq3-dev \
   git python-virtualenv -y
 
 # install Citrus core
