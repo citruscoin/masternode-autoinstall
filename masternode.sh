@@ -4,6 +4,9 @@ clear
 echo "*********** Welcome to the CitrusCash (CITR) Masternode Setup Script ***********"
 echo 'This script will install all required updates & package for Ubuntu 16.04 !'
 echo '****************************************************************************'
+echo 'cleen old dir'
+sleep 3
+cd ~ && rm -R Sentinel
 sleep 3
 echo '*** Step 1/3 ***'
 echo '*** Installing packages & copying Force wallet ***'
