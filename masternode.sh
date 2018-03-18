@@ -49,7 +49,7 @@ echo '*** Step 4/4 ***'
 echo '*** Setings Sentinel ***'
 sleep 2
 cd ~ && git clone https://github.com/citruscoin/Sentinel.git
-cd Sentinel  && export LC_ALL=C && virtualenv ./venv && ./venv/bin/pip install -r requirements.txt
+cd ~ && cd Sentinel  && export LC_ALL=C && virtualenv ./venv && ./venv/bin/pip install -r requirements.txt
 sleep 2
 echo "** sync **"
 echo '****************************************************************************'
